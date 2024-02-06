@@ -21,7 +21,7 @@ function App() {
 
   return (
     <main>
-      <Viewer iframeRef={iframeRef} aiHtml={aiHtml} />
+      <Viewer aiHtml={aiHtml} />
       <Prompter />
     </main>
   );
